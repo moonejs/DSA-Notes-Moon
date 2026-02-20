@@ -2,11 +2,11 @@ https://leetcode.com/problems/trapping-rain-water/description/
 
 These are the  bars and when the rain comes the rain water will trap in between the bars
 
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=_ZBIBGg5guk9tRUzfjusG|100%]]
+![[Trapping-water-1.svg]]
 
 **After Rain**
 
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=SvBEpSR7RIzwGK3ghPIJd|100%]]
+![[Trapping-water-2.svg]]
 
 
 `Height = [0,1,0,2,1,0,1,3,2,1,2,1]`
@@ -18,7 +18,7 @@ These are the  bars and when the rain comes the rain water will trap in between 
 
 The water will trap on bar when there are adjacent bars (bars outside ) . This is the only condition
 
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=SAgJJU9W3rdYuvL0Of6dk|40%]]
+![[Trapping-water-3.svg]]
 
 
 ==`(wL-x)*w`==
@@ -33,23 +33,15 @@ means to trap the water there should always be a boundary
 
 #### Case 1 ( Single Bar)
 
+![[Trapping-water-4.svg]]
 
-<center>
 
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^area=DdS10Y7nDMysn1rG6v5Et|10%]]
-
-</center>
-	
 
 
 No water will trap because there is should be **boundaries** 
 #### Case 2 ( Two Bar)
 
-<center>
-
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=aQ4gU7oTw1KPii2ILFjdx|90%]]
-
-</center>
+![[Trapping-water-5.svg]]
 
 
 water will not be trap it will spill of 
@@ -60,21 +52,12 @@ water will not be trap it will spill of
 
 ##### Ascending Order
 
-<center>
-
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=2YHyagp_zUnQssElsilOs|50%]]
-
-</center>
-
+![[Trapping-water-6.svg]]
 
 water will not trap in this case too 
 
 ##### Descending order
-<center>
-
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=n6tYiDKb7H0pyFTceSWzF|50%]]
-
-</center>
+![[Trapping-water-7.svg]]
 
 ==Water will not be trap in case of both Ascending and descending order==
 
@@ -82,11 +65,8 @@ water will not trap in this case too
 
 
 we can only trap the water equal to height of the bar which is minimum
-<center>
 
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=-bRNXa5T1fEC5q_QtJerZ|40%]]
-
-</center>
+![[Trapping-water-8.svg]]
 
 we will take the **minimum** from the left and right boundaries . so,
 
@@ -96,11 +76,9 @@ wL should be minimum
 trapped water = ` (4-2)*1`
 
 #### **Example 2**
-<center>
 
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=lDgaINcDzg0rx7YSUaZGD|40%]]
+![[Trapping-water-9.svg]]
 
-</center>
 we will calculate maximum boundary from left side and maximum  from right side and will take there minimum = water stored on that particular bar
 
 water trap (wL) = `min(max(left),max(right))`
@@ -122,7 +100,7 @@ tapped water on bar 3 = `(4-3) * 1 = 1`
 Total water trapped ==`2 + 1 = 3`==
 
 
-![[DSA/Arrays/Diagrams/Trapping RainWater(D).md#^group=1RiG5VlX6oHjui-5GL4pk|100%]]
+![[Trapping-water-10.svg]]
 
 
 if `-ve` value came will will take 0 while adding

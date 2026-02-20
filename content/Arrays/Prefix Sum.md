@@ -3,7 +3,8 @@
 >[!important]
 >Pehele wali values ,'jis bhi value par ho us value se pehele wali values tak ka sum'
 ---
-![[Prefix Sum (D)]]
+
+![[Prefix Sum (D).svg]]
 
 
  `prefix[i]` stores the sum of elements from index `0` to `i`

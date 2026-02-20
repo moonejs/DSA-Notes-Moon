@@ -10,7 +10,7 @@ For this question we will maintain 4 variables
 
 and our whole 1 loop will end when we iterate
 
-![[Spiral matrix.svg]]
+![[Spiral matrix.svg|40%]]
 
 
 ![[SprialMatrix-2.svg]]

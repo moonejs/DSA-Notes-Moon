@@ -65,7 +65,7 @@ To find the sum of a subarray from **index 2 to 4**:
 sum(2 → 4) = prefix[4] - prefix[1]
 ```
 
-![[max sub array Prefix sum(D)]]
+![[max sub array Prefix sum(D).svg]]
 
 `prefix[4]` contains sum of elements from `0 → 4`
 

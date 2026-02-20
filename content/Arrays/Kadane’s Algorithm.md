@@ -7,7 +7,7 @@ If the sum of a subarray becomes negative, it will only reduce the sum of any fu
 
 so we will a run only one loop and track the Current sum(CS) and MaxSum(m)
 
-![[Kadane's Algo(D)]]
+![[Kadane's Algo(D).svg]]
 
 ```
 currSum=max(nums[i],currSum+nums[i])

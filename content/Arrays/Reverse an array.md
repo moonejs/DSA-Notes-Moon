@@ -5,7 +5,7 @@ https://www.geeksforgeeks.org/problems/reverse-an-array/1
 
 **2 pointers approach**
 
-![[Reverse array(D)]]
+![[Reverse array(D).svg]]
 
 #### code
 

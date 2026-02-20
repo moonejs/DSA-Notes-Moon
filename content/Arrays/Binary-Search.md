@@ -49,7 +49,7 @@ while(start<=end){
 
 
 
-![[Binary Search (D)]]
+![[Binary Search (D).svg]]
 
 ### Code
 

@@ -21,7 +21,7 @@ They focus on clear explanations, examples, and visual understanding.
 
 ## About
 
-This site is updated as I learn and revise concepts.
+==This site is updated as I learn and revise concepts.==
 
 GitHub: [My GitHub](https://github.com/moonejs)  
 System Command Notes: [System Command](https://moonejs.github.io/Moon-Sc-Notes/)

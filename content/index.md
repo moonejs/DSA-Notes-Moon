@@ -1,6 +1,23 @@
-Hi,I am Moon These are my **PDSA** Notes
 ---
->[!important]
-Important : ==GRPA are Available here== [[1.GRPA-week2.md]]
+# DSA Notes
 
-Note: **I will remove My grpa soon**
+These are my personal notes on **Data Structures and Algorithms**.  
+They focus on clear explanations, examples, and visual understanding.
+
+---
+
+
+## How to use
+
+- Use the search to find topics quickly  
+- Browse folders from the sidebar  
+- Follow links between related notes  
+- ==Use Graph view to quickly navigate== ***Is it Cool?***
+---
+
+## About
+
+==This site is updated as I learn and revise concepts.==
+
+GitHub: [My Github](https://github.com/moonejs)  
+System Commmand Notes : [System Command](https://moonejs.github.io/Moon-Sc-Notes/)

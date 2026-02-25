@@ -1,4 +1,6 @@
 
+[[Complexity]]
+
 ***Notes By Moon***
 
 That process of checking how good your algorithm is =  

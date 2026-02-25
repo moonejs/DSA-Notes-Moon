@@ -7,9 +7,9 @@
 
 ### Insertion Sort
 
-![[Sorting/Concepts/Insertion Sort|Insertion Sort]]
+![[Sorting/Insertion Sort|Insertion Sort]]
 
 
 ### Merge sort
 
-![[Divide and Conquer/Problems/Merge Sort|Merge Sort]]
+![[Divide and Conquer/Merge Sort|Merge Sort]]
